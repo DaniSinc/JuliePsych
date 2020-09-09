@@ -1,0 +1,16 @@
+.topbar-js {
+  justify-content: space-between;
+  background: $green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topbar-js .topbar-jslogo img {
+  width: 40px;
+}
+
+#call-text {
+    color: white;
+    align-items: center;
+}
