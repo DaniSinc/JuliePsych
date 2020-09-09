@@ -1,4 +1,4 @@
-class Contact < ApplicationRecord
+class Contact < ActiveRecord::Base
 
   validates :email, 
     :presence => :true,
