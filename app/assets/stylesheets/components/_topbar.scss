@@ -1,9 +1,12 @@
 .topbar-js {
-  justify-content: space-between;
-  background: $green;
-  position: fixed;
-  top: 0;
-  width: 100%;
+    justify-content: space-between;
+    background: $green;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    width: 100%;
+    z-index: 1;
+    height: 46px;
 }
 
 .topbar-js .topbar-jslogo img {

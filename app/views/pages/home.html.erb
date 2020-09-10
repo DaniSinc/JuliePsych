@@ -1,3 +1,6 @@
+<div class="home">
+<%= render 'components/navbar'%>
+
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=799&q=80);">
   <div class="container text-center" id="banner-text">
     <h1>London-based therapist, specialising in anxiety, depression and chronic pain</h1>
@@ -73,4 +76,5 @@
   </div>
 </div>
 
-<%= render 'components/form' %>
+<%= link_to 'Contact form', new_contact_path %>
+</div>
