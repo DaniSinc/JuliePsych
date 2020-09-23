@@ -1,18 +1,8 @@
 .specialities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0;
-
     // display: flex;
     // flex-wrap: wrap;
-}
-
-/* Small devices */
-@media (max-width: 576px) {  
- .specialties {
-    display: grid;
-    grid-template-columns: 1fr;
- }
 }
 
 .speciality {
@@ -26,14 +16,14 @@
         font-family: 'Rajdhani', sans-serif;
         color: $darkblue;
     }
-
+    
     p {
         font-family: 'Rajdhani', sans-serif;
         color: $darkblue;
-
+        
     }
 }
- 
+
 #anxiety {
     background-color: $purple;
 }
@@ -42,4 +32,12 @@
 }
 #chronic-pain {
     background-color: $pink;
+}
+
+/* Small devices */
+@media (max-width: 576px) {  
+ .specialities {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
 }
