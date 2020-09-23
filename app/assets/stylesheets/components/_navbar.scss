@@ -3,13 +3,25 @@
 
 .navbar-js {
   // justify-content: space-between;
-  background: $brown;
+  background: white;
   text-align: center;
   // height: 110px;
 }
 
 .navbar-js h1 {
-  color: white;
+  color: #000000;
+}
+
+.navbar-js h4 {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-js h5 {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+;
 }
 
 .logo {
@@ -23,11 +35,14 @@
 }
 
 .navbar-collapse a {
-  color: white;
+  color: #000000;
   font-size: large;
+  font-family: 'Lato', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
   &:hover {
-    color: white;
     opacity: 0.7;
+    text-decoration: none;
   }
 }
 
@@ -40,11 +55,12 @@
 }
 
 #julie {
-  font-family: 'Playball', cursive;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 30px;
   padding-top: 20px;
   margin-bottom: 10px;
+  text-shadow: 1px 1px px rgba(0,0,0,0.2);
 }
 
 @media (max-width: 576px) { 
@@ -60,10 +76,10 @@
   }
   
   .navbar-collapse a {
-    color: white;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     display: block;
   }
   
@@ -76,7 +92,7 @@
   }
 
   .icon {
-    color: white;
+    color: black;
     padding-bottom: 20px !important;
     :hover {
       color: white;
