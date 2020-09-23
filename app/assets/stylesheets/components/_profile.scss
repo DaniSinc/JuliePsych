@@ -32,10 +32,11 @@
  .profile {
     grid-template-columns: 1fr;
     margin: 10px 25px 10px 25px;
+    padding-top: 10px; 
   }
   .profile-text {
     padding-left: 0;
-    margin-top: 10px;
+    margin-top: 12px;
     text-align: justify;
  }
  .avatar {

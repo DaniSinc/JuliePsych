@@ -6,7 +6,7 @@
     opacity: 1;
     width: 100%;
     z-index: 1;
-    height: 46px;
+    height: 10vh;
 }
 
 .topbar-js .topbar-jslogo img {
@@ -17,3 +17,12 @@
 //     color: white;
 //     align-items: center;
 // }
+
+@media (max-width: 576px) { 
+  .topbar-js {
+    height: 6vh;
+  }
+  .topbar-js .topbar-jslogo img {
+  width: 30px;
+  } 
+}

@@ -4,7 +4,8 @@
 .navbar-js {
   // justify-content: space-between;
   background: $brown;
-  height: 110px;
+  text-align: center;
+  // height: 110px;
 }
 
 .navbar-js h1 {
@@ -30,10 +31,19 @@
   }
 }
 
+.icon {
+  color: $brown;
+  :hover {
+    color: $brown;
+    cursor: default;
+  }
+}
+
 #julie {
   font-family: 'Playball', cursive;
   text-align: center;
   font-size: 30px;
+  padding-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -64,6 +74,14 @@
     right: 0;
     top: 0;
   }
+
+  .icon {
+    color: white;
+    padding-bottom: 20px !important;
+    :hover {
+      color: white;
+    }
+  }
   
   .navbar-collapse a:hover {
     background-color: #ddd;
@@ -73,5 +91,9 @@
   .active {
     background-color: #4CAF50;
     color: white;
+  }
+
+  #julie {
+    padding-top: 10px;
   }
 }
