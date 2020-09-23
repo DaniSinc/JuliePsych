@@ -37,6 +37,8 @@
 .navbar-collapse a {
   color: #000000;
   font-size: large;
+  text-transform: uppercase;
+  font-weight: bold;
   font-family: 'Lato', sans-serif;
   padding-left: 50px;
   padding-right: 50px;
@@ -47,9 +49,9 @@
 }
 
 .icon {
-  color: $brown;
+  color: white;
   :hover {
-    color: $brown;
+    color: white;
     cursor: default;
   }
 }
@@ -93,12 +95,14 @@
 
   .icon {
     color: black;
-    padding-bottom: 20px !important;
     :hover {
-      color: white;
+      color: black;
     }
   }
-  
+i {  
+  padding-bottom: 15px !important;
+}
+
   .navbar-collapse a:hover {
     background-color: #ddd;
     color: black;
