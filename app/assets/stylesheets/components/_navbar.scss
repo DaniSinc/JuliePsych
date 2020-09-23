@@ -15,23 +15,20 @@
   width: 100px;
 }
 
-// .js-nav-margin {
-  //   margin-top: 30px
-  // }
-  .navbar-js .navbar-collapse {
-    flex-grow: 0;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .nav-link {
+.navbar-js .navbar-collapse {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-collapse a {
+  color: white;
+  font-size: large;
+  &:hover {
     color: white;
-    font-size: large;
-    &:hover {
-      color: white;
-      opacity: 0.7;
-    }
+    opacity: 0.7;
   }
+}
 
 #julie {
   font-family: 'Playball', cursive;
@@ -40,3 +37,41 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 576px) { 
+  .navbar-collapse {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    position: relative;
+  }
+     
+  .navbar-collapse #myLinks {
+    display: none;
+  }
+  
+  .navbar-collapse a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .navbar-collapse a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .navbar-collapse a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+}

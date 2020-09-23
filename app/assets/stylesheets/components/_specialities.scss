@@ -1,11 +1,22 @@
 .specialities {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+
+    // display: flex;
+    // flex-wrap: wrap;
+}
+
+/* Small devices */
+@media (max-width: 576px) {  
+ .specialties {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
 }
 
 .speciality {
     flex: 1;
-    width: 200px;
     height: 200px;
     display: flex;
     flex-direction: column;

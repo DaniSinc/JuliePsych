@@ -1,6 +1,8 @@
 .profile {
-  display: flex;
-  justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  // display: flex;
+  // justify-content: space-around;
   padding-top: 45px;
   margin: 0 100px 40px 100px;
 }
@@ -24,4 +26,20 @@
     color: $darkblue;
     font-size: 14px;
   }
+}
+
+@media (max-width: 576px) {  
+ .profile {
+    grid-template-columns: 1fr;
+    margin: 10px 25px 10px 25px;
+  }
+  .profile-text {
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: justify;
+ }
+ .avatar {
+   text-align: center;
+   margin: auto;
+ }
 }
