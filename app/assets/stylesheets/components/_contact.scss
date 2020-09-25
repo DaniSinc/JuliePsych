@@ -1,0 +1,20 @@
+.contact {
+    text-align: center;    
+}
+
+.width {
+    width: 70vw;
+}
+
+@media (max-width: 576px) {  
+    .contact {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100px;
+    text-align: justify;
+    }
+
+    .width {
+        width: 80vw;
+    }
+}

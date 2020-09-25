@@ -1,0 +1,29 @@
+.fees {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.fees i {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+#fees-left {
+  padding-right: 25px;
+}
+
+#fees-right {
+  padding-left: 20px;
+}
+
+@media (max-width: 576px) {  
+ .fees {
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+ #fees-left, #temp {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: justify;
+}
+}

@@ -1,0 +1,14 @@
+.section {
+    margin: 25px 100px 20px 100px;
+}
+
+.section p {
+    font-family: $p-font;
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {  
+  .section {
+    margin: 10px
+  }
+}
