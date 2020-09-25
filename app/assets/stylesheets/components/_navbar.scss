@@ -50,7 +50,7 @@
 
 .icon {
   color: #F6F6F6;
-  :hover {
+  &:hover {
     color: #F6F6F6;
     cursor: default;
   }
@@ -95,7 +95,7 @@
 
   .icon {
     color: black;
-    :hover {
+    &:hover {
       color: black;
     }
   }
