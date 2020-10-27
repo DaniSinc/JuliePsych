@@ -22,5 +22,8 @@
 @media (max-width: 576px) {  
   .issues {
     grid-template-columns: 1fr 1fr;
+    p {
+      padding-left: 22px;
+    }
   }
 }

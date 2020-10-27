@@ -40,8 +40,8 @@
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Lato', sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   &:hover {
     opacity: 0.7;
     text-decoration: none;
@@ -65,7 +65,7 @@
   text-shadow: 1px 1px px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 750px) { 
   .navbar-collapse {
     display: grid;
     grid-template-columns: 1fr;

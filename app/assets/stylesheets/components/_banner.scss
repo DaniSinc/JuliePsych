@@ -20,6 +20,14 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+.banner a {
+  text-decoration: none;
+  color: black;
+  a:hover {
+    opacity: 0.5;
+  }
+}
+
 #banner-text {
     max-width: 600px;
 }
